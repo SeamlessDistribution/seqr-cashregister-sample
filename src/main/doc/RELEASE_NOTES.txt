@@ -1,0 +1,10 @@
+#
+# ers-provisioner-sample release notes
+#
+# $Id$
+
+ers-provisioner-sample 1.0.0.1 (NOT RELEASED)
+
+  * First version, implementing an account
+    provisioning process
+
