@@ -159,9 +159,10 @@
 
 	</build>
 
-	<scm>
-		<connection>scm:git:ssh://git@diamond/ers-standard-bank-link-sample</connection>
-		<developerConnection>scm:git:ssh://git@diamond/ers-standard-bank-link-sample</developerConnection>
-		<url>http://cgit/cgit.cgi/ers-standard-bank-link-sample.git</url>
-	</scm>
+    <scm>
+        <url>https://github.com/seqr-seamless/seqr-cashregister-sample</url>
+        <connection>scm:git:git://github.com/seqr-seamless/seqr-cashregister-sample.git</connection>
+        <developerConnection>scm:git:git@github.com/seqr-seamless/seqr-cashregister-sample.git</developerConnection>
+    </scm>
+    
 </project>
