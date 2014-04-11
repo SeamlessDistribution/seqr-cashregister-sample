@@ -37,8 +37,8 @@ public class Main
 	public static void main(String[] args) throws Exception
 	{
 		// setup communication channel with administrative rights level
-		String endpointAddress = "http://mer1/extclientproxy/service/v2";
-		SEQRCommunication commShop = new SEQRCommunication(endpointAddress, "test_shop/9900", "RESELLERUSER", "testpassword");
+		String endpointAddress = "http://extdev4.seqr.se/extclientproxy/service/v2";
+		SEQRCommunication commShop = new SEQRCommunication(endpointAddress, "public_test_shop/9900", "RESELLERUSER", "1234");
 
 		// this will generate a long enough password
 		String password = new BigInteger(150, random).toString(32);
